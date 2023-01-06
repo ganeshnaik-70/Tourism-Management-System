@@ -20,7 +20,7 @@ if($result)
 
 	}
 	else{
-		header("location:index.html");
+		header("location:mainPage.html");
 	}
 }
 else{

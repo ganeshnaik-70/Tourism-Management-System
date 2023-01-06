@@ -1,4 +1,5 @@
-* {box-sizing: border-box
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: Century Gothic;
@@ -266,7 +267,7 @@ ul li{
   padding: 5px 9px;
   color: #fff;
   margin-left: 47.5%;
-  top: -8px;
+  top: -19px;
   transition: 0.6s ease;
 }
 .contain a:hover{
@@ -290,7 +291,7 @@ ul li{
 }
 .contain .box .name-text{
   position: absolute;
-  top: 920px;
+  top: 870px;
   color: white;
   font-family: Helvetica;
 }
@@ -314,10 +315,10 @@ ul li{
   text-align: center;
 }
 .contain .box:hover .name-text h2{
-  margin-top: 35px;
+  margin-top: 5px;
 }
 .contain .box:hover .name-text a{
-  top: -15px;
+  top: 15px;
   display: block;
 }
 .contain .box .name-text a:hover{
@@ -427,7 +428,9 @@ footer
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,{font-size: 11px}
+  .prev, .next{
+    font-size: 11px
+  }
 }
 
 @-webkit-keyframes fade {

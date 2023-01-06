@@ -25,7 +25,7 @@ if (isset($_POST['signup'])) {
 <div class="main">
     <ul>
       <ul class="list">
-        <li class="logo"><a href="index.html"><img src="earth-globe.png" alt="Logo" style="width:36px;height:36px"></a></li>
+        <li class="logo"><a href="mainPage.html"><img src="earth-globe.png" alt="Logo" style="width:36px;height:36px"></a></li>
         <div class="search">
             <form method="POST" action="info.php">
               <input type="text" name="search_p" placeholder="Search.." size="50">
@@ -35,7 +35,7 @@ if (isset($_POST['signup'])) {
         </div>
       </ul>
       <ul class="list2">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="mainPage.html">Home</a></li>
         <li><a id="long" href="destination.html">Destination</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li class="active-menu"><a href="signup.html">Sign Up</a></li>

@@ -29,7 +29,7 @@ if(isset($_POST['submit'])){
 		}
 		if ($usern==$username and $passd==$password) {
 			$result = mysqli_query($db, $que);
-			header("location:index.html");
+			header("location:mainPage.html");
 		}
 		else{
 			?>
