@@ -8,13 +8,13 @@ This website also has the admin login admin can get the information of the custo
 There is cool and nice booking page where you can book your tour by entering your details. 
 This website also has a feedback section where you can give your feedback to the developer.
 
-********New Changes**************
+# New Changes
 improved performance
 login signup isssues fixed
 styling issues fixed
 
 
-***********usage***************
+# Use Procedure
 please chanage the port number with your port number
     - I used 3307 as port number but for your case it may be 3306 please change that
 
